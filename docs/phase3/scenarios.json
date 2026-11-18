@@ -1,0 +1,129 @@
+{
+ "distractor": {
+  "description": "identical circle crosses the target at frame 8",
+  "summary": {
+   "framesDone": 16,
+   "avgFrameMs": 13127.4,
+   "medianFrameMs": 13450.1,
+   "maxFrameMs": 16852.1,
+   "peakRssMB": 646.5,
+   "totalMs": 206837.9,
+   "lostFrames": [],
+   "unstableFrames": []
+  },
+  "frames": [
+   {
+    "frame": 0,
+    "gtVisiblePx": 6361,
+    "predPx": 6461,
+    "iou": 0.984,
+    "centerErrPx": 0.3
+   },
+   {
+    "frame": 1,
+    "gtVisiblePx": 6361,
+    "predPx": 6487,
+    "iou": 0.98,
+    "centerErrPx": 0.3
+   },
+   {
+    "frame": 2,
+    "gtVisiblePx": 6361,
+    "predPx": 6440,
+    "iou": 0.987,
+    "centerErrPx": 0.3
+   },
+   {
+    "frame": 3,
+    "gtVisiblePx": 6361,
+    "predPx": 6476,
+    "iou": 0.982,
+    "centerErrPx": 0.3
+   },
+   {
+    "frame": 4,
+    "gtVisiblePx": 6361,
+    "predPx": 6469,
+    "iou": 0.983,
+    "centerErrPx": 0.3
+   },
+   {
+    "frame": 5,
+    "gtVisiblePx": 6361,
+    "predPx": 6453,
+    "iou": 0.985,
+    "centerErrPx": 0.3
+   },
+   {
+    "frame": 6,
+    "gtVisiblePx": 6361,
+    "predPx": 6419,
+    "iou": 0.989,
+    "centerErrPx": 0.3
+   },
+   {
+    "frame": 7,
+    "gtVisiblePx": 6361,
+    "predPx": 5719,
+    "iou": 0.879,
+    "centerErrPx": 4.6
+   },
+   {
+    "frame": 8,
+    "gtVisiblePx": 6361,
+    "predPx": 6898,
+    "iou": 0.874,
+    "centerErrPx": 2.2
+   },
+   {
+    "frame": 9,
+    "gtVisiblePx": 6361,
+    "predPx": 8249,
+    "iou": 0.771,
+    "centerErrPx": 10.1
+   },
+   {
+    "frame": 10,
+    "gtVisiblePx": 6361,
+    "predPx": 5858,
+    "iou": 0.072,
+    "centerErrPx": 63.8
+   },
+   {
+    "frame": 11,
+    "gtVisiblePx": 6361,
+    "predPx": 6433,
+    "iou": 0.0,
+    "centerErrPx": 100.1
+   },
+   {
+    "frame": 12,
+    "gtVisiblePx": 6361,
+    "predPx": 6418,
+    "iou": 0.0,
+    "centerErrPx": 140.1
+   },
+   {
+    "frame": 13,
+    "gtVisiblePx": 6361,
+    "predPx": 6430,
+    "iou": 0.0,
+    "centerErrPx": 180.1
+   },
+   {
+    "frame": 14,
+    "gtVisiblePx": 6361,
+    "predPx": 6438,
+    "iou": 0.0,
+    "centerErrPx": 220.1
+   },
+   {
+    "frame": 15,
+    "gtVisiblePx": 6361,
+    "predPx": 6446,
+    "iou": 0.0,
+    "centerErrPx": 260.0
+   }
+  ]
+ }
+}

@@ -1,0 +1,42 @@
+[
+ {
+  "name": "sav/obj0",
+  "frames": 240,
+  "minIoU": 0.9964,
+  "meanIoU": 0.9995,
+  "worstFrame": 103,
+  "worstDiffPx": 2
+ },
+ {
+  "name": "sav/obj1",
+  "frames": 240,
+  "minIoU": 0.9799,
+  "meanIoU": 0.9997,
+  "worstFrame": 97,
+  "worstDiffPx": 528
+ },
+ {
+  "name": "sav/obj2",
+  "frames": 240,
+  "minIoU": 0.9179,
+  "meanIoU": 0.9981,
+  "worstFrame": 128,
+  "worstDiffPx": 445
+ },
+ {
+  "name": "sav/obj4",
+  "frames": 240,
+  "minIoU": 0.9996,
+  "meanIoU": 0.9999,
+  "worstFrame": 68,
+  "worstDiffPx": 9
+ },
+ {
+  "name": "sav/obj4_refined",
+  "frames": 240,
+  "minIoU": 0.9613,
+  "meanIoU": 0.9976,
+  "worstFrame": 39,
+  "worstDiffPx": 227
+ }
+]

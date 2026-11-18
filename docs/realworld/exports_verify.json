@@ -1,0 +1,155 @@
+[
+ {
+  "file": "01_dog__dog_blur.mp4",
+  "sizeMB": 1.07,
+  "codec": "h264",
+  "pixFmt": "yuv420p",
+  "size": "1280x720",
+  "rFrameRate": "30000/1001",
+  "decodedFrames": 288,
+  "trackedFrames": 289,
+  "sourceFrames": 289,
+  "videoDuration": "9.609600",
+  "audio": [
+   {
+    "codec": "aac",
+    "duration": "9.642958"
+   }
+  ],
+  "psnrMin": 40.04,
+  "psnrMean": 40.29,
+  "worstFrame": 287
+ },
+ {
+  "file": "01_dog__dog_colorPop.mp4",
+  "sizeMB": 2.01,
+  "codec": "h264",
+  "pixFmt": "yuv420p",
+  "size": "1280x720",
+  "rFrameRate": "30000/1001",
+  "decodedFrames": 288,
+  "trackedFrames": 289,
+  "sourceFrames": 289,
+  "videoDuration": "9.609600",
+  "audio": [
+   {
+    "codec": "aac",
+    "duration": "9.642958"
+   }
+  ],
+  "psnrMin": 37.43,
+  "psnrMean": 37.74,
+  "worstFrame": 249
+ },
+ {
+  "file": "01_dog__dog_neon.mp4",
+  "sizeMB": 2.75,
+  "codec": "h264",
+  "pixFmt": "yuv420p",
+  "size": "1280x720",
+  "rFrameRate": "30000/1001",
+  "decodedFrames": 288,
+  "trackedFrames": 289,
+  "sourceFrames": 289,
+  "videoDuration": "9.609600",
+  "audio": [
+   {
+    "codec": "aac",
+    "duration": "9.642958"
+   }
+  ],
+  "psnrMin": 36.77,
+  "psnrMean": 37.77,
+  "worstFrame": 243
+ },
+ {
+  "file": "04_coffee__kettle_colorPop.mp4",
+  "sizeMB": 1.81,
+  "codec": "h264",
+  "pixFmt": "yuv420p",
+  "size": "1280x720",
+  "rFrameRate": "30000/1001",
+  "decodedFrames": 286,
+  "trackedFrames": 287,
+  "sourceFrames": 287,
+  "videoDuration": "9.542867",
+  "audio": [
+   {
+    "codec": "aac",
+    "duration": "9.557000"
+   }
+  ],
+  "psnrMin": 37.33,
+  "psnrMean": 37.74,
+  "worstFrame": 285
+ },
+ {
+  "file": "04_coffee__kettle_neon.mp4",
+  "sizeMB": 2.43,
+  "codec": "h264",
+  "pixFmt": "yuv420p",
+  "size": "1280x720",
+  "rFrameRate": "30000/1001",
+  "decodedFrames": 286,
+  "trackedFrames": 287,
+  "sourceFrames": 287,
+  "videoDuration": "9.542867",
+  "audio": [
+   {
+    "codec": "aac",
+    "duration": "9.557000"
+   }
+  ],
+  "psnrMin": 36.29,
+  "psnrMean": 36.97,
+  "worstFrame": 58
+ },
+ {
+  "file": "bedroom__girl_blur.mp4",
+  "sizeMB": 1.22,
+  "codec": "h264",
+  "pixFmt": "yuv420p",
+  "size": "960x540",
+  "rFrameRate": "30/1",
+  "decodedFrames": 200,
+  "trackedFrames": 200,
+  "sourceFrames": 200,
+  "videoDuration": "6.666667",
+  "audio": [],
+  "psnrMin": 39.95,
+  "psnrMean": 40.4,
+  "worstFrame": 164
+ },
+ {
+  "file": "bedroom__girl_colorPop.mp4",
+  "sizeMB": 1.85,
+  "codec": "h264",
+  "pixFmt": "yuv420p",
+  "size": "960x540",
+  "rFrameRate": "30/1",
+  "decodedFrames": 200,
+  "trackedFrames": 200,
+  "sourceFrames": 200,
+  "videoDuration": "6.666667",
+  "audio": [],
+  "psnrMin": 37.34,
+  "psnrMean": 37.53,
+  "worstFrame": 197
+ },
+ {
+  "file": "bedroom__girl_neon.mp4",
+  "sizeMB": 2.57,
+  "codec": "h264",
+  "pixFmt": "yuv420p",
+  "size": "960x540",
+  "rFrameRate": "30/1",
+  "decodedFrames": 200,
+  "trackedFrames": 200,
+  "sourceFrames": 200,
+  "videoDuration": "6.666667",
+  "audio": [],
+  "psnrMin": 34.76,
+  "psnrMean": 35.64,
+  "worstFrame": 115
+ }
+]

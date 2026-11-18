@@ -1,0 +1,32 @@
+{
+ "case": "SA-V obj4 (vest), single click, chosen mask option",
+ "backend": "remote",
+ "promptFrame": 0,
+ "candidateScores": [
+  0.7163,
+  0.1844,
+  0.449
+ ],
+ "candidateIoUvsGT": [
+  0.1573,
+  0.8318,
+  0.406
+ ],
+ "samPick": 0,
+ "chosen": 1,
+ "segmentS": 30.9,
+ "trackS": 84.5,
+ "frames": 240,
+ "promptType": "mask",
+ "device": "Tesla T4",
+ "avgFrameMs": 180.2,
+ "J": 0.8941,
+ "Jmin": 0.7724,
+ "F": 0.9983,
+ "JF": 0.9462,
+ "gtFrames": 60,
+ "baseline": {
+  "singleClickSamPick_JF": 0.0976,
+  "threeClicks_JF": 0.9544
+ }
+}

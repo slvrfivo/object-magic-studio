@@ -1,0 +1,427 @@
+{
+ "ffmpeg": "ffmpeg version 9.0.2-essentials_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+ "clips": {
+  "640x360": {
+   "tracking": {
+    "framesDone": 10,
+    "avgFrameMs": 22307.3,
+    "totalMs": 220949.3,
+    "peakRssMB": 600.1,
+    "lostFrames": [],
+    "minIoUvsGT": 0.978
+   },
+   "neon": {
+    "probe": {
+     "frameCount": 10,
+     "outputFps": 30.0,
+     "fpsRational": "30/1",
+     "duration": 0.333333,
+     "outputWidth": 640,
+     "outputHeight": 360,
+     "codec": "h264",
+     "pixFmt": "yuv420p",
+     "hasAudio": false,
+     "fileSizeBytes": 11432
+    },
+    "expected": {
+     "frameCount": 10,
+     "duration": 0.3333,
+     "fps": 30,
+     "size": [
+      640,
+      360
+     ]
+    },
+    "decodedFrames": 10,
+    "psnrVsLosslessRender": {
+     "min": 37.52,
+     "mean": 37.74
+    },
+    "regionChecks": {
+     "ringColorErr": [
+      16.0,
+      18.0,
+      17.8,
+      17.9,
+      16.6,
+      18.3,
+      18.2,
+      18.9,
+      17.5,
+      18.8
+     ],
+     "innerDiffMean": [
+      1.01,
+      1.01,
+      1.02,
+      1.01,
+      1.02,
+      1.01,
+      1.02,
+      1.01,
+      1.02,
+      1.01
+     ],
+     "farDiffMean": [
+      1.99,
+      1.99,
+      1.98,
+      1.98,
+      1.98,
+      1.97,
+      1.97,
+      1.97,
+      1.98,
+      1.97
+     ]
+    },
+    "timing": {
+     "wallS": 2.78,
+     "avgRenderMs": 180.4,
+     "totalMs": 2267.6
+    }
+   },
+   "colorPop": {
+    "probe": {
+     "frameCount": 10,
+     "outputFps": 30.0,
+     "fpsRational": "30/1",
+     "duration": 0.333333,
+     "outputWidth": 640,
+     "outputHeight": 360,
+     "codec": "h264",
+     "pixFmt": "yuv420p",
+     "hasAudio": false,
+     "fileSizeBytes": 5541
+    },
+    "expected": {
+     "frameCount": 10,
+     "duration": 0.3333,
+     "fps": 30,
+     "size": [
+      640,
+      360
+     ]
+    },
+    "decodedFrames": 10,
+    "psnrVsLosslessRender": {
+     "min": 37.69,
+     "mean": 37.87
+    },
+    "regionChecks": {
+     "bgChromaMean": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "objChromaMean": [
+      241.9,
+      241.9,
+      241.9,
+      241.9,
+      242.1,
+      242.1,
+      241.8,
+      242.0,
+      242.0,
+      242.0
+     ],
+     "coloredCentroidErrPx": [
+      0.19,
+      0.25,
+      0.19,
+      0.18,
+      0.19,
+      0.14,
+      0.04,
+      0.06,
+      0.19,
+      0.16
+     ]
+    },
+    "timing": {
+     "wallS": 1.64,
+     "avgRenderMs": 77.6,
+     "totalMs": 1264.3
+    }
+   },
+   "blur": {
+    "probe": {
+     "frameCount": 10,
+     "outputFps": 30.0,
+     "fpsRational": "30/1",
+     "duration": 0.333333,
+     "outputWidth": 640,
+     "outputHeight": 360,
+     "codec": "h264",
+     "pixFmt": "yuv420p",
+     "hasAudio": false,
+     "fileSizeBytes": 9307
+    },
+    "expected": {
+     "frameCount": 10,
+     "duration": 0.3333,
+     "fps": 30,
+     "size": [
+      640,
+      360
+     ]
+    },
+    "decodedFrames": 10,
+    "psnrVsLosslessRender": {
+     "min": 40.44,
+     "mean": 40.55
+    },
+    "regionChecks": {
+     "objDiffMean": [
+      1.08,
+      1.1,
+      1.06,
+      1.07,
+      1.15,
+      1.1,
+      1.09,
+      1.13,
+      1.1,
+      1.15
+     ],
+     "bgEdgeDiffMean": [
+      23.6,
+      23.6,
+      23.6,
+      23.6,
+      23.6,
+      23.6,
+      23.6,
+      23.6,
+      23.6,
+      23.6
+     ]
+    },
+    "timing": {
+     "wallS": 2.18,
+     "avgRenderMs": 139.8,
+     "totalMs": 1879.8
+    }
+   }
+  },
+  "1920x1080": {
+   "tracking": {
+    "framesDone": 10,
+    "avgFrameMs": 39086.0,
+    "totalMs": 377680.5,
+    "peakRssMB": 335.6,
+    "lostFrames": [],
+    "minIoUvsGT": 0.985
+   },
+   "neon": {
+    "probe": {
+     "frameCount": 10,
+     "outputFps": 30.0,
+     "fpsRational": "30/1",
+     "duration": 0.333333,
+     "outputWidth": 1920,
+     "outputHeight": 1080,
+     "codec": "h264",
+     "pixFmt": "yuv420p",
+     "hasAudio": false,
+     "fileSizeBytes": 42879
+    },
+    "expected": {
+     "frameCount": 10,
+     "duration": 0.3333,
+     "fps": 30,
+     "size": [
+      1920,
+      1080
+     ]
+    },
+    "decodedFrames": 10,
+    "psnrVsLosslessRender": {
+     "min": 39.43,
+     "mean": 39.56
+    },
+    "regionChecks": {
+     "ringColorErr": [
+      8.5,
+      8.7,
+      8.3,
+      8.8,
+      8.8,
+      8.9,
+      8.7,
+      9.1,
+      8.7,
+      8.7
+     ],
+     "innerDiffMean": [
+      5.09,
+      5.03,
+      5.04,
+      5.04,
+      5.07,
+      5.07,
+      5.05,
+      5.06,
+      5.07,
+      5.06
+     ],
+     "farDiffMean": [
+      2.03,
+      2.03,
+      2.03,
+      2.03,
+      2.02,
+      2.02,
+      2.02,
+      2.02,
+      2.01,
+      2.02
+     ]
+    },
+    "timing": {
+     "wallS": 19.35,
+     "avgRenderMs": 1785.3,
+     "totalMs": 19002.6
+    }
+   },
+   "colorPop": {
+    "probe": {
+     "frameCount": 10,
+     "outputFps": 30.0,
+     "fpsRational": "30/1",
+     "duration": 0.333333,
+     "outputWidth": 1920,
+     "outputHeight": 1080,
+     "codec": "h264",
+     "pixFmt": "yuv420p",
+     "hasAudio": false,
+     "fileSizeBytes": 20707
+    },
+    "expected": {
+     "frameCount": 10,
+     "duration": 0.3333,
+     "fps": 30,
+     "size": [
+      1920,
+      1080
+     ]
+    },
+    "decodedFrames": 10,
+    "psnrVsLosslessRender": {
+     "min": 38.02,
+     "mean": 38.1
+    },
+    "regionChecks": {
+     "bgChromaMean": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "objChromaMean": [
+      242.0,
+      242.0,
+      242.0,
+      242.0,
+      242.0,
+      242.0,
+      242.0,
+      242.0,
+      242.0,
+      242.0
+     ],
+     "coloredCentroidErrPx": [
+      0.11,
+      0.24,
+      0.33,
+      0.25,
+      0.16,
+      0.15,
+      0.2,
+      0.21,
+      0.09,
+      0.3
+     ]
+    },
+    "timing": {
+     "wallS": 7.5,
+     "avgRenderMs": 530.0,
+     "totalMs": 7160.4
+    }
+   },
+   "blur": {
+    "probe": {
+     "frameCount": 10,
+     "outputFps": 30.0,
+     "fpsRational": "30/1",
+     "duration": 0.333333,
+     "outputWidth": 1920,
+     "outputHeight": 1080,
+     "codec": "h264",
+     "pixFmt": "yuv420p",
+     "hasAudio": false,
+     "fileSizeBytes": 39093
+    },
+    "expected": {
+     "frameCount": 10,
+     "duration": 0.3333,
+     "fps": 30,
+     "size": [
+      1920,
+      1080
+     ]
+    },
+    "decodedFrames": 10,
+    "psnrVsLosslessRender": {
+     "min": 41.1,
+     "mean": 41.14
+    },
+    "regionChecks": {
+     "objDiffMean": [
+      1.04,
+      1.03,
+      1.04,
+      1.03,
+      1.03,
+      1.02,
+      1.03,
+      1.02,
+      1.03,
+      1.03
+     ],
+     "bgEdgeDiffMean": [
+      24.2,
+      24.2,
+      24.3,
+      24.3,
+      24.3,
+      24.3,
+      24.3,
+      24.3,
+      24.3,
+      24.3
+     ]
+    },
+    "timing": {
+     "wallS": 16.21,
+     "avgRenderMs": 1415.3,
+     "totalMs": 15817.0
+    }
+   }
+  }
+ }
+}

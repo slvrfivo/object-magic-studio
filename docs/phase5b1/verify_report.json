@@ -1,0 +1,56 @@
+{
+ "probe": {
+  "codec_name": "h264",
+  "pix_fmt": "yuv420p",
+  "width": 640,
+  "height": 360,
+  "r_frame_rate": "30/1",
+  "avg_frame_rate": "30/1",
+  "nb_frames": "300",
+  "duration": "10.000000"
+ },
+ "decodedFrames": 300,
+ "ptsFirstLast": [
+  0.0,
+  9.966667
+ ],
+ "ptsMaxErrorS": 0.0,
+ "ptsMonotonic": true,
+ "frameOrder": {
+  "exact": 299,
+  "indistinguishable(<1px motion)": 1,
+  "wrong": [],
+  "total": 300
+ },
+ "psnrVsLosslessReference": {
+  "min": 35.84,
+  "mean": 36.2
+ },
+ "coloredCenterVsMaskPx": {
+  "max": 0.34,
+  "mean": 0.17
+ },
+ "coloredCenterVsGroundTruthPx": {
+  "max": 0.4,
+  "mean": 0.15
+ },
+ "neonRingPresent": "300/300",
+ "effects": {
+  "neon": {
+   "enabled": true,
+   "intensity": 0.75,
+   "color": "#22d3ee",
+   "thickness": 3
+  },
+  "colorPop": {
+   "enabled": true,
+   "intensity": 1.0
+  },
+  "blur": {
+   "enabled": false,
+   "intensity": 0.5
+  }
+ },
+ "resultPrecision": "fp16",
+ "resultDevice": "Tesla T4"
+}

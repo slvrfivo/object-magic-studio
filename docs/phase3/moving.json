@@ -1,0 +1,113 @@
+{
+ "description": "circle moving along a curved path",
+ "stats": {
+  "framesDone": 12,
+  "avgFrameMs": 11206.7,
+  "medianFrameMs": 11913.3,
+  "maxFrameMs": 14305.7,
+  "peakRssMB": 768.7,
+  "totalMs": 129298.0,
+  "lostFrames": [],
+  "unstableFrames": [],
+  "frameMs": [
+   287.5,
+   8073.9,
+   8111.9,
+   9451.4,
+   8843.2,
+   12753.4,
+   14305.7,
+   13708.9,
+   12546.1,
+   11533.5,
+   11913.3,
+   12032.4
+  ]
+ },
+ "frames": [
+  {
+   "frame": 0,
+   "gtVisiblePx": 9477,
+   "predPx": 9603,
+   "iou": 0.987,
+   "centerErrPx": 0.3
+  },
+  {
+   "frame": 1,
+   "gtVisiblePx": 9477,
+   "predPx": 9681,
+   "iou": 0.979,
+   "centerErrPx": 0.3
+  },
+  {
+   "frame": 2,
+   "gtVisiblePx": 9477,
+   "predPx": 9612,
+   "iou": 0.986,
+   "centerErrPx": 0.2
+  },
+  {
+   "frame": 3,
+   "gtVisiblePx": 9477,
+   "predPx": 9697,
+   "iou": 0.977,
+   "centerErrPx": 0.2
+  },
+  {
+   "frame": 4,
+   "gtVisiblePx": 9477,
+   "predPx": 9533,
+   "iou": 0.994,
+   "centerErrPx": 0.2
+  },
+  {
+   "frame": 5,
+   "gtVisiblePx": 9477,
+   "predPx": 9587,
+   "iou": 0.988,
+   "centerErrPx": 0.2
+  },
+  {
+   "frame": 6,
+   "gtVisiblePx": 9477,
+   "predPx": 9671,
+   "iou": 0.98,
+   "centerErrPx": 0.3
+  },
+  {
+   "frame": 7,
+   "gtVisiblePx": 9477,
+   "predPx": 9516,
+   "iou": 0.995,
+   "centerErrPx": 0.1
+  },
+  {
+   "frame": 8,
+   "gtVisiblePx": 9477,
+   "predPx": 9575,
+   "iou": 0.99,
+   "centerErrPx": 0.2
+  },
+  {
+   "frame": 9,
+   "gtVisiblePx": 9477,
+   "predPx": 9581,
+   "iou": 0.989,
+   "centerErrPx": 0.2
+  },
+  {
+   "frame": 10,
+   "gtVisiblePx": 9477,
+   "predPx": 9561,
+   "iou": 0.991,
+   "centerErrPx": 0.1
+  },
+  {
+   "frame": 11,
+   "gtVisiblePx": 9477,
+   "predPx": 9559,
+   "iou": 0.991,
+   "centerErrPx": 0.2
+  }
+ ]
+}

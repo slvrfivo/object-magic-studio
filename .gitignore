@@ -1,0 +1,36 @@
+node_modules/
+dist/
+.venv/
+__pycache__/
+*.pyc
+backend/data/
+backend/checkpoints/
+*.log
+.DS_Store
+backend/third_party/
+.venv-sam2/
+colab/build/
+colab/results/extracted/
+colab/jobs/
+frontend/test-fixtures/gpu/
+realworld/videos/
+realworld/work/
+frontend/test-fixtures/realworld/
+
+# 실제 영상 내보내기 결과물 (라이선스 미표기 영상 → 재배포하지 않음)
+docs/realworld/exports/*.mp4
+
+# 라이선스가 명시되지 않은 SAM 2 데모 영상(개·컵·블록·커피·축구·침실)에서 만든 이미지 → 로컬 전용
+# (SA-V(CC BY 4.0)와 합성 영상에서 만든 이미지만 공개 저장소에 포함)
+docs/realworld/tracking/0*.jpg
+docs/realworld/tracking/bedroom__*.jpg
+docs/realworld/tracking/detail_*.jpg
+docs/realworld/segment_sheet.jpg
+docs/realworld/samples_overview.jpg
+docs/realworld/candidates_bedroom__girl_1click.jpg
+docs/realworld/candidates_03_blocks__block_A.jpg
+docs/phase5b2/browser_modal.jpg
+# Colab 실제 영상 추적 결과 zip (같은 이유, 약 20MB)
+colab/results/realworld/
+# 합성 테스트 영상 (python scripts/make_test_clip.py 로 다시 생성)
+frontend/test-fixtures/*.mp4

@@ -1,0 +1,214 @@
+{
+ "label": "cpu_fp32_reference",
+ "config": {
+  "device": "cpu",
+  "precision": "fp32",
+  "offload": "auto"
+ },
+ "environment": {
+  "python": "3.13.1",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "torch": "2.15.0+cpu",
+  "torchCuda": null,
+  "cudnn": null,
+  "cudaAvailable": false,
+  "tf32Matmul": false,
+  "tf32Cudnn": true,
+  "checkpoint": "sam2.1_hiera_tiny.pt",
+  "checkpointSha256": "7402e0d864fa82708a20fbd15bc84245c2f26dff0eb43a4b5b93452deb34be69",
+  "sam2Version": "1.0",
+  "sam2Source": {
+   "dir_info": {
+    "editable": true
+   },
+   "url": "backend/third_party/sam2 (local editable install)"
+  }
+ },
+ "load": {
+  "wallS": 23.33,
+  "loadMs": 12559.6,
+  "warmup": {
+   "setImageMs": 10017.9,
+   "predictMs": 665.0
+  },
+  "state": "ready",
+  "error": null,
+  "runtime": {
+   "device": "cpu",
+   "precision": "fp32",
+   "lazyFrames": true,
+   "videoStateOptions": {
+    "offload_video_to_cpu": false,
+    "offload_state_to_cpu": false
+   }
+  }
+ },
+ "segmentation": {
+  "prompts": {
+   "circle": {
+    "device": "cpu",
+    "deviceName": "CPU",
+    "dtype": "fp32",
+    "embeddingCached": false,
+    "setImageMs": 8011.8,
+    "predictMs": 304.3,
+    "inferenceMs": 8407.8,
+    "multimask": true,
+    "score": 0.9833,
+    "processRssMB": 415.7,
+    "iouVsGT": 0.9852
+   },
+   "rect": {
+    "device": "cpu",
+    "deviceName": "CPU",
+    "dtype": "fp32",
+    "embeddingCached": true,
+    "setImageMs": 0.0,
+    "predictMs": 224.9,
+    "inferenceMs": 225.7,
+    "multimask": true,
+    "score": 0.9855,
+    "processRssMB": 414.1
+   },
+   "both": {
+    "device": "cpu",
+    "deviceName": "CPU",
+    "dtype": "fp32",
+    "embeddingCached": true,
+    "setImageMs": 0.0,
+    "predictMs": 269.8,
+    "inferenceMs": 270.4,
+    "multimask": false,
+    "score": 0.9726,
+    "processRssMB": 427.0
+   },
+   "both_minus_rect": {
+    "device": "cpu",
+    "deviceName": "CPU",
+    "dtype": "fp32",
+    "embeddingCached": true,
+    "setImageMs": 0.0,
+    "predictMs": 299.3,
+    "inferenceMs": 299.9,
+    "multimask": false,
+    "score": 0.9152,
+    "processRssMB": 411.6
+   },
+   "circle_f100": {
+    "device": "cpu",
+    "deviceName": "CPU",
+    "dtype": "fp32",
+    "embeddingCached": false,
+    "setImageMs": 8225.6,
+    "predictMs": 642.9,
+    "inferenceMs": 8879.7,
+    "multimask": true,
+    "score": 0.9823,
+    "processRssMB": 256.2,
+    "iouVsGT": 0.9935
+   },
+   "circle_f200": {
+    "device": "cpu",
+    "deviceName": "CPU",
+    "dtype": "fp32",
+    "embeddingCached": false,
+    "setImageMs": 10930.2,
+    "predictMs": 518.7,
+    "inferenceMs": 11465.8,
+    "multimask": true,
+    "score": 0.9838,
+    "processRssMB": 239.6,
+    "iouVsGT": 0.9849
+   }
+  },
+  "encoderMsMedian": 8225.6,
+  "decoderMsMedian": 301.8
+ },
+ "tracking": {
+  "60": {
+   "framesDone": 60,
+   "initMs": 11942.4,
+   "promptMs": 602.8,
+   "avgFrameMs": 16820.2,
+   "medianFrameMs": 15397.2,
+   "maxFrameMs": 28000.9,
+   "fps": 0.059,
+   "totalMs": 1011288.3,
+   "peakRssMB": 547.6,
+   "peakAllocatedMB": null,
+   "peakReservedMB": null,
+   "lostFrames": [],
+   "unstableFrames": [],
+   "frameMs": [
+    2012.5,
+    18040.2,
+    12265.8,
+    14689.3,
+    21124.7,
+    19725.0,
+    15274.5,
+    21943.5,
+    21275.5,
+    22965.7,
+    14437.1,
+    14553.3,
+    13998.2,
+    17658.5,
+    14634.3,
+    21445.0,
+    11355.0,
+    14681.7,
+    23424.2,
+    14723.9,
+    11373.4,
+    11930.8,
+    11244.2,
+    12260.1,
+    17810.9,
+    24000.5,
+    17531.7,
+    12356.7,
+    11954.3,
+    13720.9,
+    16018.0,
+    17913.6,
+    13829.7,
+    13337.2,
+    11858.9,
+    12063.9,
+    13835.1,
+    15089.0,
+    15397.2,
+    16404.5,
+    15509.4,
+    20083.0,
+    22598.6,
+    18468.9,
+    24607.1,
+    26932.7,
+    24439.1,
+    13510.4,
+    19638.9,
+    21226.3,
+    22753.6,
+    18314.6,
+    15847.7,
+    28000.9,
+    16192.7,
+    13145.8,
+    15066.5,
+    11945.4,
+    12908.4,
+    13057.6
+   ],
+   "wallS": 1011.45,
+   "endToEndFps": 0.059,
+   "iouVsGT": {
+    "min": 0.9793,
+    "mean": 0.9891,
+    "n": 60
+   },
+   "iouVsCPU": {}
+  }
+ }
+}

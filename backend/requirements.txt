@@ -1,0 +1,13 @@
+# NOTE: keep this file ASCII-only (pip on Korean Windows decodes it as cp949).
+
+# Phase 1: API skeleton
+fastapi>=0.115
+uvicorn[standard]>=0.32
+python-multipart>=0.0.12
+httpx>=0.27  # FastAPI TestClient
+
+# Phase 2+ (model / video processing) - see README
+# torch / torchvision: install separately to match your CUDA version
+# SAM 2: clone facebookresearch/sam2 and run `pip install -e .`
+# opencv-python-headless>=4.10
+# numpy>=1.26

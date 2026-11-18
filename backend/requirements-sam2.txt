@@ -1,0 +1,25 @@
+# Phase 2+ environment (.venv-sam2). Keep this file ASCII-only (pip on Korean Windows reads cp949).
+#
+# Install order (see README):
+#   1) PyTorch first, matching your hardware:
+#        CPU only : pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+#        CUDA     : pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126
+#                   (cu126 builds still include Pascal sm_61 kernels; cu128+ builds dropped them)
+#   2) pip install -r requirements-sam2.txt
+#   3) Official SAM 2 repo, without building the optional CUDA extension:
+#        git clone https://github.com/facebookresearch/sam2.git third_party/sam2
+#        set SAM2_BUILD_CUDA=0  (PowerShell: $env:SAM2_BUILD_CUDA="0")
+#        pip install -e third_party/sam2
+
+fastapi>=0.115
+uvicorn[standard]>=0.32
+python-multipart>=0.0.12
+httpx>=0.27
+opencv-python-headless>=4.10
+numpy>=1.26
+psutil>=5.9
+pytest>=8
+
+# Optional: remote GPU via Modal (Phase 5B-2). Only needed when OMS_REMOTE=modal.
+# The SDK is free; deploying/running GPUs requires a Modal account (see docs/phase5b2).
+modal>=1.6

@@ -1,0 +1,154 @@
+{
+ "description": "grey board fully covers the circle at frames 7-10, then passes",
+ "stats": {
+  "framesDone": 16,
+  "avgFrameMs": 11848.8,
+  "medianFrameMs": 10875.2,
+  "maxFrameMs": 18016.9,
+  "peakRssMB": 751.5,
+  "totalMs": 184309.2,
+  "lostFrames": [
+   7,
+   8,
+   9,
+   10
+  ],
+  "unstableFrames": [
+   6,
+   11,
+   12
+  ],
+  "frameMs": [
+   280.4,
+   7153.4,
+   7628.4,
+   8460.2,
+   8723.9,
+   10459.9,
+   10431.7,
+   10875.2,
+   13155.0,
+   13848.2,
+   16133.6,
+   18016.9,
+   16117.3,
+   14427.9,
+   11486.9,
+   10813.5
+  ]
+ },
+ "frames": [
+  {
+   "frame": 0,
+   "gtVisiblePx": 7845,
+   "predPx": 7973,
+   "iou": 0.984,
+   "centerErrPx": 0.2
+  },
+  {
+   "frame": 1,
+   "gtVisiblePx": 7845,
+   "predPx": 8024,
+   "iou": 0.978,
+   "centerErrPx": 0.2
+  },
+  {
+   "frame": 2,
+   "gtVisiblePx": 7845,
+   "predPx": 7989,
+   "iou": 0.982,
+   "centerErrPx": 0.2
+  },
+  {
+   "frame": 3,
+   "gtVisiblePx": 7845,
+   "predPx": 7997,
+   "iou": 0.981,
+   "centerErrPx": 0.2
+  },
+  {
+   "frame": 4,
+   "gtVisiblePx": 7408,
+   "predPx": 7455,
+   "iou": 0.993,
+   "centerErrPx": 2.7
+  },
+  {
+   "frame": 5,
+   "gtVisiblePx": 4369,
+   "predPx": 4454,
+   "iou": 0.98,
+   "centerErrPx": 19.1
+  },
+  {
+   "frame": 6,
+   "gtVisiblePx": 1076,
+   "predPx": 1106,
+   "iou": 0.968,
+   "centerErrPx": 38.6
+  },
+  {
+   "frame": 7,
+   "gtVisiblePx": 0,
+   "predPx": 0,
+   "iou": 1.0,
+   "centerErrPx": null
+  },
+  {
+   "frame": 8,
+   "gtVisiblePx": 0,
+   "predPx": 0,
+   "iou": 1.0,
+   "centerErrPx": null
+  },
+  {
+   "frame": 9,
+   "gtVisiblePx": 0,
+   "predPx": 0,
+   "iou": 1.0,
+   "centerErrPx": null
+  },
+  {
+   "frame": 10,
+   "gtVisiblePx": 0,
+   "predPx": 0,
+   "iou": 1.0,
+   "centerErrPx": null
+  },
+  {
+   "frame": 11,
+   "gtVisiblePx": 2401,
+   "predPx": 2464,
+   "iou": 0.973,
+   "centerErrPx": 30.0
+  },
+  {
+   "frame": 12,
+   "gtVisiblePx": 5820,
+   "predPx": 5918,
+   "iou": 0.983,
+   "centerErrPx": 11.4
+  },
+  {
+   "frame": 13,
+   "gtVisiblePx": 7845,
+   "predPx": 7942,
+   "iou": 0.988,
+   "centerErrPx": 0.2
+  },
+  {
+   "frame": 14,
+   "gtVisiblePx": 7845,
+   "predPx": 7931,
+   "iou": 0.989,
+   "centerErrPx": 0.2
+  },
+  {
+   "frame": 15,
+   "gtVisiblePx": 7845,
+   "predPx": 7932,
+   "iou": 0.989,
+   "centerErrPx": 0.3
+  }
+ ]
+}

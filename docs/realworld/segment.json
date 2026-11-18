@@ -1,0 +1,373 @@
+[
+ {
+  "name": "bedroom/girl_1click",
+  "note": "사람 · 한 번 클릭(원피스)",
+  "frame": 0,
+  "points": [
+   [
+    395,
+    235,
+    1
+   ]
+  ],
+  "coverage": 0.01634,
+  "score": 0.6514,
+  "encoderMs": 6816.7,
+  "decoderMs": 244.6,
+  "cached": false
+ },
+ {
+  "name": "bedroom/girl",
+  "note": "사람 · 머리/몸통/다리 3클릭",
+  "frame": 0,
+  "points": [
+   [
+    395,
+    235,
+    1
+   ],
+   [
+    400,
+    70,
+    1
+   ],
+   [
+    385,
+    330,
+    1
+   ]
+  ],
+  "coverage": 0.06856,
+  "score": 0.9577,
+  "encoderMs": 0.0,
+  "decoderMs": 176.9,
+  "cached": true
+ },
+ {
+  "name": "bedroom/boy",
+  "note": "사람 · 3클릭, 여자아이에게 가려짐",
+  "frame": 0,
+  "points": [
+   [
+    230,
+    250,
+    1
+   ],
+   [
+    255,
+    165,
+    1
+   ],
+   [
+    215,
+    370,
+    1
+   ]
+  ],
+  "coverage": 0.03631,
+  "score": 0.9274,
+  "encoderMs": 0.0,
+  "decoderMs": 174.7,
+  "cached": true
+ },
+ {
+  "name": "01_dog/dog",
+  "note": "동물 · 한 번 클릭",
+  "frame": 0,
+  "points": [
+   [
+    620,
+    430,
+    1
+   ]
+  ],
+  "coverage": 0.0237,
+  "score": 0.9458,
+  "encoderMs": 4659.1,
+  "decoderMs": 249.9,
+  "cached": false
+ },
+ {
+  "name": "01_dog/woman",
+  "note": "사람 · 3클릭",
+  "frame": 0,
+  "points": [
+   [
+    330,
+    320,
+    1
+   ],
+   [
+    310,
+    440,
+    1
+   ],
+   [
+    420,
+    250,
+    1
+   ]
+  ],
+  "coverage": 0.04138,
+  "score": 0.9786,
+  "encoderMs": 0.0,
+  "decoderMs": 167.9,
+  "cached": true
+ },
+ {
+  "name": "02_cups/middle_cup",
+  "note": "똑같은 컵 섞기 (정체성)",
+  "frame": 0,
+  "points": [
+   [
+    655,
+    450,
+    1
+   ]
+  ],
+  "coverage": 0.03538,
+  "score": 0.969,
+  "encoderMs": 4135.2,
+  "decoderMs": 230.0,
+  "cached": false
+ },
+ {
+  "name": "02_cups/ball",
+  "note": "작은 공, 컵 아래로 숨음",
+  "frame": 0,
+  "points": [
+   [
+    400,
+    463,
+    1
+   ]
+  ],
+  "coverage": 0.00462,
+  "score": 0.977,
+  "encoderMs": 0.0,
+  "decoderMs": 179.9,
+  "cached": true
+ },
+ {
+  "name": "03_blocks/right_hand",
+  "note": "손 · 변형, 화면 이탈",
+  "frame": 0,
+  "points": [
+   [
+    850,
+    70,
+    1
+   ],
+   [
+    950,
+    60,
+    1
+   ]
+  ],
+  "coverage": 0.03057,
+  "score": 0.8969,
+  "encoderMs": 4563.0,
+  "decoderMs": 296.5,
+  "cached": false
+ },
+ {
+  "name": "03_blocks/block_A",
+  "note": "비슷한 블록 사이의 작은 물체",
+  "frame": 0,
+  "points": [
+   [
+    600,
+    350,
+    1
+   ]
+  ],
+  "coverage": 0.00156,
+  "score": 0.6937,
+  "encoderMs": 0.0,
+  "decoderMs": 238.2,
+  "cached": true
+ },
+ {
+  "name": "04_coffee/kettle",
+  "note": "반사 금속, 들어 올려 회전",
+  "frame": 0,
+  "points": [
+   [
+    570,
+    470,
+    1
+   ]
+  ],
+  "coverage": 0.07196,
+  "score": 0.8967,
+  "encoderMs": 4859.0,
+  "decoderMs": 219.8,
+  "cached": false
+ },
+ {
+  "name": "04_coffee/mug",
+  "note": "머그",
+  "frame": 0,
+  "points": [
+   [
+    880,
+    520,
+    1
+   ]
+  ],
+  "coverage": 0.03004,
+  "score": 0.9723,
+  "encoderMs": 0.0,
+  "decoderMs": 189.7,
+  "cached": true
+ },
+ {
+  "name": "05_juggle/ball",
+  "note": "작고 빠른 공, 모션 블러",
+  "frame": 0,
+  "points": [
+   [
+    650,
+    320,
+    1
+   ]
+  ],
+  "coverage": 0.00498,
+  "score": 0.9389,
+  "encoderMs": 4453.3,
+  "decoderMs": 250.7,
+  "cached": false
+ },
+ {
+  "name": "05_juggle/person",
+  "note": "사람 · 3클릭",
+  "frame": 0,
+  "points": [
+   [
+    700,
+    250,
+    1
+   ],
+   [
+    710,
+    480,
+    1
+   ],
+   [
+    705,
+    80,
+    1
+   ]
+  ],
+  "coverage": 0.07323,
+  "score": 0.9746,
+  "encoderMs": 0.0,
+  "decoderMs": 175.8,
+  "cached": true
+ },
+ {
+  "name": "sav/obj0",
+  "note": "SA-V 정답 객체 0 (medium)",
+  "frame": 0,
+  "points": [
+   [
+    227,
+    767,
+    1
+   ]
+  ],
+  "coverage": 0.00611,
+  "score": 0.7794,
+  "encoderMs": 4164.0,
+  "decoderMs": 203.4,
+  "cached": false,
+  "iouVsGT": 0.871,
+  "boundaryF": 0.9846
+ },
+ {
+  "name": "sav/obj1",
+  "note": "SA-V 정답 객체 1 (large)",
+  "frame": 0,
+  "points": [
+   [
+    137,
+    491,
+    1
+   ]
+  ],
+  "coverage": 0.13213,
+  "score": 0.6013,
+  "encoderMs": 0.0,
+  "decoderMs": 173.9,
+  "cached": true,
+  "iouVsGT": 0.9433,
+  "boundaryF": 0.9389
+ },
+ {
+  "name": "sav/obj2",
+  "note": "SA-V 정답 객체 2 (medium)",
+  "frame": 0,
+  "points": [
+   [
+    312,
+    115,
+    1
+   ]
+  ],
+  "coverage": 0.01709,
+  "score": 0.7715,
+  "encoderMs": 0.0,
+  "decoderMs": 167.8,
+  "cached": true,
+  "iouVsGT": 0.8313,
+  "boundaryF": 0.9187
+ },
+ {
+  "name": "sav/obj4",
+  "note": "SA-V 정답 객체 4 (medium)",
+  "frame": 0,
+  "points": [
+   [
+    155,
+    448,
+    1
+   ]
+  ],
+  "coverage": 0.13196,
+  "score": 0.7196,
+  "encoderMs": 0.0,
+  "decoderMs": 168.9,
+  "cached": true,
+  "iouVsGT": 0.1576,
+  "boundaryF": 0.0489
+ },
+ {
+  "name": "sav/obj4_refined",
+  "note": "SA-V 객체 4 · 보정 클릭 (포함 1 + 제외 2)",
+  "frame": 0,
+  "points": [
+   [
+    155,
+    448,
+    1
+   ],
+   [
+    190,
+    291,
+    0
+   ],
+   [
+    202,
+    651,
+    0
+   ]
+  ],
+  "coverage": 0.01996,
+  "score": 0.7672,
+  "encoderMs": 0.0,
+  "decoderMs": 754.7,
+  "cached": true,
+  "iouVsGT": 0.8589,
+  "boundaryF": 0.9092
+ }
+]

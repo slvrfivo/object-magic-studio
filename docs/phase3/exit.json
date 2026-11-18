@@ -1,0 +1,136 @@
+{
+ "description": "circle leaves the frame (gone from frame 10)",
+ "stats": {
+  "framesDone": 14,
+  "avgFrameMs": 10996.6,
+  "medianFrameMs": 10745.5,
+  "maxFrameMs": 13919.4,
+  "peakRssMB": 740.9,
+  "totalMs": 149651.6,
+  "lostFrames": [
+   10,
+   11,
+   12,
+   13
+  ],
+  "unstableFrames": [
+   9
+  ],
+  "frameMs": [
+   240.9,
+   7897.4,
+   8877.0,
+   10615.3,
+   10019.3,
+   9757.5,
+   10064.4,
+   10745.5,
+   11534.2,
+   12596.9,
+   11862.8,
+   12761.2,
+   12305.4,
+   13919.4
+  ]
+ },
+ "frames": [
+  {
+   "frame": 0,
+   "gtVisiblePx": 7845,
+   "predPx": 7934,
+   "iou": 0.989,
+   "centerErrPx": 0.2
+  },
+  {
+   "frame": 1,
+   "gtVisiblePx": 7845,
+   "predPx": 8002,
+   "iou": 0.98,
+   "centerErrPx": 0.3
+  },
+  {
+   "frame": 2,
+   "gtVisiblePx": 7845,
+   "predPx": 7931,
+   "iou": 0.989,
+   "centerErrPx": 0.2
+  },
+  {
+   "frame": 3,
+   "gtVisiblePx": 7845,
+   "predPx": 7903,
+   "iou": 0.992,
+   "centerErrPx": 0.1
+  },
+  {
+   "frame": 4,
+   "gtVisiblePx": 7845,
+   "predPx": 7900,
+   "iou": 0.992,
+   "centerErrPx": 0.1
+  },
+  {
+   "frame": 5,
+   "gtVisiblePx": 7845,
+   "predPx": 7876,
+   "iou": 0.995,
+   "centerErrPx": 0.1
+  },
+  {
+   "frame": 6,
+   "gtVisiblePx": 7845,
+   "predPx": 7878,
+   "iou": 0.995,
+   "centerErrPx": 0.1
+  },
+  {
+   "frame": 7,
+   "gtVisiblePx": 6688,
+   "predPx": 6707,
+   "iou": 0.995,
+   "centerErrPx": 6.6
+  },
+  {
+   "frame": 8,
+   "gtVisiblePx": 3872,
+   "predPx": 3903,
+   "iou": 0.992,
+   "centerErrPx": 21.6
+  },
+  {
+   "frame": 9,
+   "gtVisiblePx": 1076,
+   "predPx": 1100,
+   "iou": 0.976,
+   "centerErrPx": 38.5
+  },
+  {
+   "frame": 10,
+   "gtVisiblePx": 0,
+   "predPx": 0,
+   "iou": 1.0,
+   "centerErrPx": null
+  },
+  {
+   "frame": 11,
+   "gtVisiblePx": 0,
+   "predPx": 0,
+   "iou": 1.0,
+   "centerErrPx": null
+  },
+  {
+   "frame": 12,
+   "gtVisiblePx": 0,
+   "predPx": 0,
+   "iou": 1.0,
+   "centerErrPx": null
+  },
+  {
+   "frame": 13,
+   "gtVisiblePx": 0,
+   "predPx": 0,
+   "iou": 1.0,
+   "centerErrPx": null
+  }
+ ]
+}

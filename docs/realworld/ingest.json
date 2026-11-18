@@ -1,0 +1,130 @@
+[
+ {
+  "file": "01_dog.mp4",
+  "sizeKB": 1698,
+  "status": 200,
+  "seconds": 15.43,
+  "meta": {
+   "width": 1280,
+   "height": 720,
+   "fps": 29.97,
+   "frameCount": 289,
+   "duration": 9.643,
+   "fpsSource": "probed"
+  }
+ },
+ {
+  "file": "02_cups.mp4",
+  "sizeKB": 2484,
+  "status": 200,
+  "seconds": 12.64,
+  "meta": {
+   "width": 1280,
+   "height": 720,
+   "fps": 29.97,
+   "frameCount": 300,
+   "duration": 10.01,
+   "fpsSource": "probed"
+  }
+ },
+ {
+  "file": "03_blocks.mp4",
+  "sizeKB": 1766,
+  "status": 200,
+  "seconds": 12.07,
+  "meta": {
+   "width": 1280,
+   "height": 720,
+   "fps": 29.97,
+   "frameCount": 292,
+   "duration": 9.743,
+   "fpsSource": "probed"
+  }
+ },
+ {
+  "file": "04_coffee.mp4",
+  "sizeKB": 1149,
+  "status": 200,
+  "seconds": 5.84,
+  "meta": {
+   "width": 1280,
+   "height": 720,
+   "fps": 29.97,
+   "frameCount": 287,
+   "duration": 9.576,
+   "fpsSource": "probed"
+  }
+ },
+ {
+  "file": "05_default_juggle.mp4",
+  "sizeKB": 1799,
+  "status": 422,
+  "seconds": 6.02,
+  "error": {
+   "code": "validation",
+   "message": "Video is longer than 10s."
+  }
+ },
+ {
+  "file": "05_default_juggle_10s.mp4",
+  "sizeKB": 3350,
+  "status": 200,
+  "seconds": 6.06,
+  "meta": {
+   "width": 1280,
+   "height": 720,
+   "fps": 24.0,
+   "frameCount": 240,
+   "duration": 10.0,
+   "fpsSource": "probed"
+  }
+ },
+ {
+  "file": "bedroom.mp4",
+  "sizeKB": 2324,
+  "status": 200,
+  "seconds": 2.46,
+  "meta": {
+   "width": 960,
+   "height": 540,
+   "fps": 30.0,
+   "frameCount": 200,
+   "duration": 6.667,
+   "fpsSource": "probed"
+  }
+ },
+ {
+  "file": "sam2_720px_dark.mp4",
+  "sizeKB": 1213,
+  "status": 422,
+  "seconds": 0.1,
+  "error": {
+   "code": "validation",
+   "message": "Resolution 1200x1200 is too high. Maximum is 1920x1080 (or 1080x1920)."
+  }
+ },
+ {
+  "file": "sav_000001.mp4",
+  "sizeKB": 5591,
+  "status": 422,
+  "seconds": 2.64,
+  "error": {
+   "code": "validation",
+   "message": "Video is longer than 10s."
+  }
+ },
+ {
+  "file": "sav_000001_10s.mp4",
+  "sizeKB": 5216,
+  "status": 200,
+  "seconds": 2.57,
+  "meta": {
+   "width": 480,
+   "height": 848,
+   "fps": 24.0,
+   "frameCount": 240,
+   "duration": 10.0,
+   "fpsSource": "probed"
+  }
+ }
+]
