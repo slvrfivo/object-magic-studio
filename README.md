@@ -210,7 +210,7 @@ docs/                단계별 기록과 측정 결과 (DEVELOPMENT_LOG.md, real
 
 ## 출처와 라이선스
 
-- **이 저장소에서 직접 작성한 코드와 문서**: [MIT License](LICENSE)
+- **이 저장소에서 직접 작성한 코드와 문서**: [MIT License](LICENSE) (제3자 구성 요소는 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md))
 - **SAM 2 / SAM 2.1** 코드와 체크포인트: Meta, [Apache 2.0](https://github.com/facebookresearch/sam2/blob/main/LICENSE). 이 저장소에는 포함하지 않으며 설치 과정에서 받습니다.
 - **SA-V 데이터셋** 영상 `sav_000001`과 그 정답 마스크: Meta, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). README의 SA-V 화면과 추적 이미지는 이 영상에서 만들었습니다.
 - 정성 평가에 쓴 SAM 2 저장소의 데모 영상은 영상 자체의 라이선스가 따로 명시되어 있지 않습니다. 그래서 그 영상으로 만든 이미지와 MP4는 이 저장소에 포함하지 않았습니다(`.gitignore`).
