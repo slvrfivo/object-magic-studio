@@ -78,7 +78,7 @@ GPU 없이 원격 경로 전체를 시험하려면 `$env:OMS_REMOTE = "inprocess
 | `OMS_REMOTE` | (빈 값) | `modal` / `inprocess` / 빈 값 = 원격 없음 |
 | `OMS_REMOTE_MAX_FRAMES` | 300 | 원격 추적 1회 최대 프레임 |
 | `OMS_REMOTE_MAX_UPLOAD_MB` | 100 | 원격으로 보내는 영상 최대 크기 |
-| `OMS_REMOTE_DAILY_GPU_SECONDS` | 1800 | 하루 추정 청구 시간 한도 (30분 ≈ $0.37), 0 = 없음 |
+| `OMS_REMOTE_DAILY_GPU_SECONDS` | 2400 | 하루 추정 청구 시간 한도 (40분 ≈ $0.50), 0 = 없음 |
 | `OMS_REMOTE_MONTHLY_USD` | 5 | 한 달 추정 비용 한도, 0 = 없음 |
 | `OMS_REMOTE_COST_PER_S` | 0.000208 | 초당 단가 (T4 + CPU 2코어 + 메모리 8GiB) |
 | `OMS_REMOTE_IDLE_S` / `OMS_MODAL_IDLE_S` | 120 | 마지막 호출 뒤 컨테이너 유지 시간 (두 값을 같게) |
@@ -162,7 +162,7 @@ GPU 없이 원격 경로 전체를 시험하려면 `$env:OMS_REMOTE = "inprocess
 
 **사용량·비용**
 - Modal 설정은 `min_containers=0`(사용하지 않을 때 0원), `max_containers=1`(GPU 동시 1대), `scaledown_window=120초`, 호출당 `timeout=600초`입니다.
-- 로컬 예산 한도는 하루 30분, 한 달 $5(추정치 기준)이며, 넘으면 `budget_exceeded`(429)로 막습니다.
+- 로컬 예산 한도는 하루 40분, 한 달 $5(추정치 기준)이며, 넘으면 `budget_exceeded`(429)로 막습니다.
 - 추정 방식: 콜드 스타트 + 호출 시간 + 대기 시간, 동시 호출의 중복은 제외합니다. 실제 청구액의 기준은 Modal 대시보드입니다.
 - **Modal 워크스페이스 예산(Starter 플랜에서 설정 가능)을 함께 걸어 두는 것을 권장합니다.**
 - 개인정보: 원격을 선택하면 영상 프레임이 Modal(미국 클라우드)로 전송됩니다. 민감한 영상은 Local CPU를 쓰세요.
@@ -184,7 +184,7 @@ GPU 없이 원격 경로 전체를 시험하려면 `$env:OMS_REMOTE = "inprocess
 | 아무것도 하지 않을 때 | 0초 | **$0** |
 | 한 달 영상 100개 | ≈ 5.9시간 | **≈ $4.4** (무료 크레딧 $30 안) |
 | 첫 배포 이미지 빌드 (1회, CPU) | 수 분 | 수 센트 수준 (추정) |
-| 로컬 기본 한도 (하루 30분 / 월 $5) | — | 최대 하루 ≈ $0.37, 월 $5 |
+| 로컬 기본 한도 (하루 40분 / 월 $5) | — | 최대 하루 ≈ $0.50, 월 $5 |
 
 L4($0.80/시간)는 T4보다 약 35% 비싸지만 더 빠를 수 있습니다. 측정 전이므로 T4로 시작합니다.
 

@@ -64,7 +64,7 @@ class Settings(BaseModel):
     modal_class_name: str = "Sam2Gpu"
     modal_cancel_dict: str = "oms-gpu-cancel"
     #: 사용량·비용 한도 (추정치 기준, 0 이면 한도 없음)
-    remote_daily_gpu_seconds: float = float(os.getenv("OMS_REMOTE_DAILY_GPU_SECONDS", "1800"))
+    remote_daily_gpu_seconds: float = float(os.getenv("OMS_REMOTE_DAILY_GPU_SECONDS", "2400"))
     remote_monthly_usd: float = float(os.getenv("OMS_REMOTE_MONTHLY_USD", "5"))
     #: T4 $0.000164/s + CPU 2코어 + 메모리 8GiB ≈ $0.000208/s (Modal 공개 요금, 2026-11 확인)
     remote_cost_per_s: float = float(os.getenv("OMS_REMOTE_COST_PER_S", "0.000208"))
