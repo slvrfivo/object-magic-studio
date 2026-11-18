@@ -3,7 +3,7 @@ import { Eye, EyeOff, Minus, Plus } from 'lucide-react';
 import { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react';
 import type { MouseEvent as ReactMouseEvent, PointerEvent as ReactPointerEvent } from 'react';
 import { clientToNormalized, fitContain } from '../lib/coords';
-import { frameToTime, timeToFrame } from '../lib/frames';
+import { frameToTime, mediaTimeToFrame, timeToFrame } from '../lib/frames';
 import { FrameRenderer } from '../lib/renderer';
 import { maskForFrame, useStudioStore } from '../store/studioStore';
 import type { ViewMode } from '../types';
@@ -88,6 +88,10 @@ export function VideoStage() {
   }, [currentFrame, isPlaying, fps, duration, draw]);
 
   // 재생 루프
+  // 재생 중의 video.currentTime 은 계속 흐르는 미디어 시계라서, drawImage 로 실제 그려지는 프레임과
+  // 수시로 1프레임 이상 어긋납니다(측정: 마스크가 영상보다 앞섬). 그래서 브라우저가 새 프레임을
+  // 표시할 때 호출하는 requestVideoFrameCallback 안에서, 그 프레임의 mediaTime 으로 마스크 번호를
+  // 정하고 바로 그립니다 → 같은 프레임의 영상과 마스크가 함께 그려집니다.
   useEffect(() => {
     const v = videoRef.current;
     if (!v) return;
@@ -97,11 +101,28 @@ export function VideoStage() {
     }
     if (useStudioStore.getState().currentFrame >= frameCount - 1) v.currentTime = 0;
     v.play().catch(() => setPlaying(false));
-    let raf = 0;
-    const tick = () => {
-      const f = timeToFrame(v.currentTime, fps, frameCount);
+    const show = (f: number) => {
       if (f !== useStudioStore.getState().currentFrame) setCurrentFrame(f);
       draw();
+    };
+    if (typeof v.requestVideoFrameCallback === 'function') {
+      let id = 0;
+      let active = true;
+      const onFrame = (_now: number, meta: VideoFrameCallbackMetadata) => {
+        if (!active) return;
+        show(mediaTimeToFrame(meta.mediaTime, fps, frameCount));
+        id = v.requestVideoFrameCallback(onFrame);
+      };
+      id = v.requestVideoFrameCallback(onFrame);
+      return () => {
+        active = false;
+        v.cancelVideoFrameCallback(id);
+      };
+    }
+    // requestVideoFrameCallback 미지원 브라우저: 기존 방식 (currentTime 기준, 프레임 단위 정확도 보장 안 됨)
+    let raf = 0;
+    const tick = () => {
+      show(timeToFrame(v.currentTime, fps, frameCount));
       raf = requestAnimationFrame(tick);
     };
     raf = requestAnimationFrame(tick);
